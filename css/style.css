@@ -1,0 +1,198 @@
+.logo{
+  font-family: 'Amatic SC', cursive;
+  font-size: 3.5em;
+}
+.apagandoLasLuces{
+  background: black;
+  color: white;
+}
+.o{
+  font-family: 'Oswald';
+  font-size: 3em;
+}
+.casilla{
+  width: 125px;
+  height: 110px;
+  background: green;
+  float: left;
+  margin-left: 1%;
+  margin-bottom: 3%;
+  border-radius: 5px 5px 5px 5px;
+  text-align: center;
+}
+.textoLabel{
+  color: black;
+  font-size: 1em;
+}
+.mensajeRojo{
+  background: #FFD4D9;
+  border-radius: 5px 5px 5px 5px;
+  margin-top: 5px;
+  padding: 2%;
+  font-size: 1.2em;
+  border-color: #FFC2C9;
+  border-width: 1px;
+}
+.mensajeVerde{
+  background: #CCF0DB;
+  border-radius: 5px 5px 5px 5px;
+  margin-top: 5px;
+  padding: 2%;
+  font-size: 1.2em;
+  border-color: #BFECD2;
+  border-width: 1px;
+}
+.letras{
+  font-family: 'Krub', sans-serif;
+  font-size: 90px;
+}
+.oculto{
+  display: none;
+}
+.textoVidas{
+  font-family: 'Krub', sans-serif;
+  font-size: 2.5em;
+}
+.icono{
+  position: relative;
+  width: 50%;
+  height : auto;
+
+}
+.sobre{
+  position: absolute;
+  top:0px;
+  left:30%;
+  width: 128px;
+  height: auto;
+  border:none;
+  text-align: center;
+}
+.ahocado{
+  width: 50%;
+  height: auto;
+  position: relative;
+}
+.fuego1{
+  position: absolute;
+  top: 40%;
+  left: 38%;
+  width: 28%;
+  height: auto;
+}
+.fuego2{
+  position: absolute;
+  top: 23%;
+  left: 54%;
+  width: 30%;
+  height: auto;
+}
+.fuego3{
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  width: 27%;
+  height: auto;
+}
+.fuego4{
+  position: absolute;
+  top: 13%;
+  left: 61%;
+  width: 25%;
+  height: auto;
+}
+.fuego5{
+  position: absolute;
+  top: 14%;
+  left: 52%;
+  width: 25%;
+  height: auto;
+}
+.fuego6{
+  position: absolute;
+  top: -9%;
+  left: 44%;
+  width: 30%;
+  height: auto;
+}
+.cabeza{
+  position: absolute;
+  top: 10%;
+  left: 34%;
+  width: 50%;
+  height: auto;
+}
+.jjcc{
+  position: absolute;
+  top: 38%;
+  left: -50%;
+  width: 41%;
+  height: auto;
+  display: none;
+}
+.feminazi1{
+  position: absolute;
+  top: 38%;
+  left: 130%;
+  width: 41%;
+  height: auto;
+  display: none;
+}
+.fondoTransparente2{
+	/*Div que ocupa toda la pantalla*/
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:136%;
+	background-color: black;
+	/*IE*/
+	filter: alpha(opacity=50);
+	/*FireFox Opera*/
+	opacity: 0.7;
+  z-index:1;
+
+}
+
+.piñeraIzq{
+  width: 100%;
+  height: auto;
+
+}
+
+.fondoTransparente{
+  opacity: .65;
+  filter: alpha(opacity=65);
+  background: black;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 960;
+}
+
+#cardSobreTransparente{
+    /*position: absolute;
+    padding: auto;
+    top: 60%;
+    left: 45%;*/
+
+    height: auto;
+    left: 32vw;
+    margin-left: 50px;
+    margin-top: -200px;
+    position: fixed;
+    top: 50vh;
+    width: 21%;
+    z-index: 970;
+}
+#piñeraPierde{
+  width: 100%;
+  height: auto;
+}
+.palabraPerdiste{
+  font-family: 'Oswald';
+  font-size: 3em;
+  text-align: center;
+}
